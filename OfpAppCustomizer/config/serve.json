@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "b5158e7b-f334-4e70-a21d-e18ab519be98": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "ofpMaster": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "b5158e7b-f334-4e70-a21d-e18ab519be98": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "ofpWeb": {
+      "pageUrl": "https://ang-a-dev.faa.gov/Empsvcs/AOFP/SitePages/Test-SPFx-1.aspx",
+      "customActions": {
+        "b5158e7b-f334-4e70-a21d-e18ab519be98": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Another message"
+          }
+        }
+      }
+    }
+  }
+}

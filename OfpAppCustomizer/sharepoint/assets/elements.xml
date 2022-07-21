@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="OfpMaster"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="b5158e7b-f334-4e70-a21d-e18ab519be98"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
